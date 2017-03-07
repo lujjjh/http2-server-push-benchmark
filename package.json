@@ -1,0 +1,24 @@
+{
+  "name": "http2-server-push-benchmark",
+  "version": "0.0.1",
+  "description": "A benchmark for HTTP/2 server push.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lujjjh/http2-server-push-benchmark.git"
+  },
+  "author": "lujjjh <lujjjh@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lujjjh/http2-server-push-benchmark/issues"
+  },
+  "homepage": "https://github.com/lujjjh/http2-server-push-benchmark#readme",
+  "dependencies": {
+    "browser-perf": "^1.4.11",
+    "http2": "^3.3.6",
+    "throttle": "^1.0.3"
+  }
+}
